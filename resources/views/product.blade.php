@@ -37,6 +37,7 @@
 <div>
     <div class = "product-wrapper">
     <h3>Products on sale</h3>
+    <h4><small>{{ $products->count() }} items found in Smartphones</small></h4>
     @foreach($products as $item)
     <div class="selling-item">
     <a href="detail/{{$item['id']}}">

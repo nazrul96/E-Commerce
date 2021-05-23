@@ -17,9 +17,11 @@
             <br></br>
         </div>
     </div>
+    <br></br>
 <div style="clear:both" class="panel panel-default">
   <div class="panel-body">
-  Description : {{$product['description']}}
+  Product description:<br>
+  {{$product['description']}}
   </div>
 </div>
 </div>
