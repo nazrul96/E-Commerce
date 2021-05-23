@@ -33,5 +33,19 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div>
+    <div class = "product-wrapper">
+    <h3>Products on sale</h3>
+    @foreach($products as $item)
+    <div class="selling-item">
+      <img class="product-image" src="{{$item['gallery']}}">
+      <div class="">
+        <h3>{{$item['name']}}</h3>
+        <p>{{$item['price']}}</p>
+      </div>
+    </div>
+    @endforeach
+</div>
 </div>    
 @endsection
+</div>

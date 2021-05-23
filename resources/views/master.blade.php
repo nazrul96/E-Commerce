@@ -37,5 +37,18 @@
     {
         background-color: darkgray;
     }
+    .product-image
+    {
+        height:100px;
+    }
+    .selling-item
+    {
+        float:left;
+        width: 20%;
+    }
+    .product-wrapper
+    {
+        margin: 30px;
+    }
 </style>
 </html>
